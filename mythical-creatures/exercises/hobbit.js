@@ -28,15 +28,7 @@ class Hobbit {
         }
     }
 
-    // celebrateBirthday() {
-    //     if (this.age > 32) {
-    //         this.adult = true
-    //     } else {
-    //         this.adult = false
-    //         this.age += 1;
-    //     }
-    // };
-
+    
 };
 
 
