@@ -15,7 +15,7 @@ class Hobbit {
         } else {
             this.adult = true;
         }
-        this.age += 1;
+        this.age++;
     };
 
     getRing() {
@@ -25,8 +25,8 @@ class Hobbit {
         } else {
             this.hasRing = false;
             return `You can't have it!`;
-        }
-    }
+        };
+    };
 
     
 };
