@@ -96,7 +96,7 @@ describe("Dog", function() {
 
   it('should be able to gain new friends', function() {
     var cap = new Dog({ name: 'Cap', age: 2});
-    var psi = new Dog({ tame: 'Psi', age: 3});
+    var psi = new Dog({ name: 'Psi', age: 3});
 
     cap.makeNewFriend(psi);
 
