@@ -7,9 +7,12 @@ describe('Sphinx', () => {
   });
 
   it('should have no name', () => {
+    const sphinx = new Sphinx();
+
     // instantiate a Sphinx object with no arguments
 
     // assert that the spinx's name is null
+    assert.equal(sphinx.name, null)
 
     //NOTE: We will not ask you to write your own tests in a mod 1 assessment, but it is good practice to prepare for mod 2!
   });
